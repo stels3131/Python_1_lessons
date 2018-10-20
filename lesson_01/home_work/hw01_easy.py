@@ -16,6 +16,13 @@ while b!=0:
 # Не нужно решать задачу так:
 # print("a = ", b, "b = ", a) - это неправильное решение!
 
+secondrequest1 = input("Введите первое число: ")
+secondrequest2 = input("Введите второе число: ")
+temp = secondrequest1
+secondrequest1 = secondrequest2
+secondrequest2 = temp
+print("Это теперь первое число", secondrequest1)
+print("Это теперь второе число", secondrequest2)
 
 # Задача-3: Запросите у пользователя его возраст.
 # Если ему есть 18 лет, выведите: "Доступ разрешен",
